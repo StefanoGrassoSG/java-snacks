@@ -9,6 +9,7 @@ public class snack2 {
 		String[] nomi = {"Mario", "Luigi", "Giovanna", "Anna", "Carlo", "Maria", "Luca", "Giuseppe", "Elena", "Francesca"};
 		String[] cognomi = {"Rossi", "Bianchi", "Verdi", "Russo", "Ferrari", "Esposito", "Romano", "Gallo", "Conti", "Marino"};
 		
+		
 		for(int x=0;x<nomi.length;x++) {
 			
 			Random random = new Random();
