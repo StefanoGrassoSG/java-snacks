@@ -27,7 +27,7 @@ public class snack11 {
 			 sum += numbers[x];
 		}
 		
-		double average = (double) sum / 100;
+		int average = sum / 100;
 		System.out.println("il numero più basso è: " + min);
 		System.out.println("il numero più alto è: " + max);
 		System.out.println("la media dei numeri è: " + average);
