@@ -12,11 +12,9 @@ public class snack7 {
 		int number = Integer.valueOf(value);
 		
 		int minute = number / 60;
-		double hour = number / 3600;
+		int hour = number / 3600;
 		int seconds = number;
 		
-		System.out.println("in ore: " + hour);
-		System.out.println("in minuti: " + minute);
-		System.out.println("in secondi: " + seconds);
+		System.out.println(hour + ":" + minute + ":" + seconds);
 	}
 }
