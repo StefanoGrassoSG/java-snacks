@@ -17,12 +17,8 @@ public class snack11 {
 			numbers[x] = randomNumber;
 			System.out.println(numbers[x]);
 			
-			if(numbers[x] < min) {
-				min = numbers[x];
-			}
-			else if(numbers[x] > max) {
-				max = numbers[x];
-			}
+			min = (numbers[x] < min) ? numbers[x] : min;
+			max = (numbers[x] > max) ? numbers[x] : max;
 			
 			 sum += numbers[x];
 		}
