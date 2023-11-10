@@ -11,10 +11,14 @@ public class snack7 {
 		String value = in.nextLine();
 		int number = Integer.valueOf(value);
 		
-		int hours = number /(3600);
-        int minutes = (number % (3600))/60;
-        int seconds = number % 60;
+		int days = number / (24 * 3600);
+        int remainingSeconds = number % (24 * 3600);
+        int hours = remainingSeconds / 3600;
+        int remainingMinutes = (remainingSeconds % 3600) / 60;
+        int seconds = remainingSeconds % 60;
 		
-		System.out.println(hours + ":" + minutes + ":" + seconds);
+        System.out.println(days + " giorni " + hours + ":" + remainingMinutes + ":" + seconds);
+        
+        in.close();
 	}
 }
