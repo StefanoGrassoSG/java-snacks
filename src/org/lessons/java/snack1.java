@@ -12,11 +12,8 @@ public class snack1 {
 		String strValue1 = in.nextLine();
 		int value1 = Integer.valueOf(strValue1);
 		
-		if(value1 % 2 == 0) {
-			System.out.println(value1 + " " + "è pari");
-		}
-		else {
-			System.out.println(value1 + " " + "è dispari");
-		}
+		System.out.println((value1 % 2 == 0) ? value1 + " è pari" : (value1 + 1) + " è il successivo");
+
+		in.close();
 	}
 }

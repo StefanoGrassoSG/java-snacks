@@ -20,7 +20,7 @@ public class snack11 {
 			min = (numbers[x] < min) ? numbers[x] : min;
 			max = (numbers[x] > max) ? numbers[x] : max;
 			
-			 sum += numbers[x];
+			sum += numbers[x];
 		}
 		
 		int average = sum / 100;

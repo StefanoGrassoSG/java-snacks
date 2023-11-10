@@ -7,8 +7,15 @@ public class snack5 {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
+		
+		while(true) {
 		System.out.println("Inserisci una parola: ");
 		String strValue = in.nextLine();
+		
+		if(strValue.equals("0")) {
+			System.out.println("programma terminato");
+			break;
+		}
 		
 		int alphabetCount = 0; 
         int digitCount = 0;
@@ -24,14 +31,10 @@ public class snack5 {
                 symbolCount++;
             }
         }
-		if(strValue.equals("0")) {
-			System.out.println("termina programma");
-		}
-		else {
+		
 			System.out.println("Caratteri alfabetici: " + alphabetCount);
 	        System.out.println("Numeri: " + digitCount);
 	        System.out.println("Simboli non alfanumerici: " + symbolCount);
-	        System.out.println("continua");
 		}
 	}
 }
