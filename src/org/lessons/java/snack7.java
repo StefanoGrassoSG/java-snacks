@@ -11,10 +11,10 @@ public class snack7 {
 		String value = in.nextLine();
 		int number = Integer.valueOf(value);
 		
-		int minute = number / 60;
-		int hour = number / 3600;
-		int seconds = number;
+		int hours = number /(3600);
+        int minutes = (number % (3600))/60;
+        int seconds = number % 60;
 		
-		System.out.println(hour + ":" + minute + ":" + seconds);
+		System.out.println(hours + ":" + minutes + ":" + seconds);
 	}
 }
