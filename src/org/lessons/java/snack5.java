@@ -10,7 +10,7 @@ public class snack5 {
 		System.out.println("Inserisci una parola: ");
 		String strValue = in.nextLine();
 		
-		int alphabetCount = 0;
+		int alphabetCount = 0; 
         int digitCount = 0;
         int symbolCount = 0;
         
