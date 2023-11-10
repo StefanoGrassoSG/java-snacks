@@ -25,13 +25,13 @@ public class snack5 {
             }
         }
 		if(strValue.equals("0")) {
-			System.out.println("bravo hai messo 0");
+			System.out.println("termina programma");
 		}
 		else {
 			System.out.println("Caratteri alfabetici: " + alphabetCount);
 	        System.out.println("Numeri: " + digitCount);
 	        System.out.println("Simboli non alfanumerici: " + symbolCount);
-	        System.out.println("riprova");
+	        System.out.println("continua");
 		}
 	}
 }
