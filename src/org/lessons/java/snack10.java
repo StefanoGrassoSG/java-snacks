@@ -25,5 +25,6 @@ public class snack10 {
 		
 		
 		System.out.println("la somma di tutti i numeri tra quelli che hai selezionato è: " + sum);
+		in.close();
 	}
 }

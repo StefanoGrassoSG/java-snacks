@@ -18,5 +18,7 @@ public class snack4 {
 			}
 		}
 		 System.out.println("La parola " + strValue + " è palindroma");
+		 
+		 in.close();
 	}
 }

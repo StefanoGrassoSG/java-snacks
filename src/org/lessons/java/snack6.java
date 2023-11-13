@@ -22,5 +22,6 @@ public class snack6 {
 			}
 		}
 		System.out.println(result);
+		in.close();
 	}
 }

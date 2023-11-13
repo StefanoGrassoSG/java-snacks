@@ -16,7 +16,7 @@ public class snack5 {
 			System.out.println("programma terminato");
 			break;
 		}
-		
+
 		int alphabetCount = 0; 
         int digitCount = 0;
         int symbolCount = 0;
@@ -36,5 +36,6 @@ public class snack5 {
 	        System.out.println("Numeri: " + digitCount);
 	        System.out.println("Simboli non alfanumerici: " + symbolCount);
 		}
+		in.close();
 	}
 }
